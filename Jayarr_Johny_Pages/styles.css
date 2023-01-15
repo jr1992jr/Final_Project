@@ -1,0 +1,299 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2E3837;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: #1f2726;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    
+
+}
+
+.Logo {
+    color: white;
+    font-size: 28px;
+}
+
+span {
+    color: #fb536d;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #EB455F;
+}
+
+
+
+/* Index Page  */
+
+.Intro {
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    color: white;
+    font-family: inherit;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.Text h2 {
+    font-size: 2rem;
+    letter-spacing: 4px;
+}
+
+.Text p {
+    margin: .5rem 0 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Intro_audiA4 img {
+    width: 500px;
+    height: 50%;
+}
+
+.container {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1rem;
+    background: #2E3837;
+
+}
+
+.container .Vehicle {
+    display: grid;
+    background-color: #EB455F;
+    border-radius: 12rem;
+
+}
+
+.container .Vehicle img {
+    width: 70%;
+}
+
+
+
+.book_btn1 {
+    background-color: #EB455F;
+    border-color: #EB455F;
+    width: 100%;
+    height: 90px;
+    color: white;
+}
+
+
+.book_btn2 {
+    background-color: transparent;
+    border-style: none;
+}
+
+.booknow {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+/* Index Page */
+
+
+
+
+/*Reservation page */
+.Bsect .Info2 .Text {
+    
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 20%;
+}
+
+
+.Bsect .Info2 .Text form {
+    padding: 1rem;
+
+}
+
+label {
+    color: white;
+    font-weight: bold;
+}
+
+.Bsect > .res_submit {
+    text-align: center;
+}
+/*Reservation page */
+
+
+
+
+.abouttxt {
+    position: sticky;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    top: 20%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    
+    
+
+   
+
+}
+
+.abouttxt span{
+    color: #EB455F;
+}
+
+.res_submit{
+    background-color: #EB455F;
+    border-color: #EB455F;
+    width: 50%;
+    height: 50px;
+    color: white;
+}
+
+/* Contact Us & Testimonal Textbox */
+.Info6 {
+    position: absolute;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    top: 20%;
+    left: 25%;
+
+
+}
+
+.Info6 span{
+    color: #EB455F;
+}
+/* Contact Us & Testimonal Textbox */
+*
+/* Testimonal Page */
+.Testimonials{
+    position: absolute;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    top: 70%;
+    
+}
+
+.Testimonials .Heading1{
+    color: white;
+    display: inline-block;
+    font-size: 4vw;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    font-weight: 900;
+}
+.Testimonials .Heading1 b{
+    color: #EB455F;
+}
+.Wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.Wrapper .Container4{
+    position: relative;
+    width: 250px;
+    margin: 40px 10px;
+    padding: 30px 20px;
+    border-radius:  3px;
+    color: #fff;
+    
+}
+
+.Wrapper .Container4 .profile{
+    position: absolute;
+    display: block;
+    width: 100%;
+    
+    
+
+}
+.Wrapper .Container4 .profile .imgBox{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border: 9px solid #EB455F;
+    border-radius: 50%;
+    overflow: hidden;
+    
+
+}
+
+.Wrapper .Container4 .profile p span{
+    color: #fff;
+}
+
+.Submitbtn{
+    background-color: #EB455F;
+    border-color: #EB455F;
+    width: 50%;
+    height: 50px;
+    color: white;
+}
+
+
+.review_submit{
+    background-color: #EB455F;
+    border-color: #EB455F;
+    width: 50%;
+    height: 50px;
+    color: white;
+}
+/* Testimonal Page */
+
+
+
+.textField{
+    border: 2px solid rgb(0,0,0,0);
+}
+

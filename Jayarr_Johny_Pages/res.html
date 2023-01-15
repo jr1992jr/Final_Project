@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="HTML 5, CSS 3,Javascript">
+  <meta name="description" content="Dynamic Web Development">
+  <meta name="author" content="Jayarr Johny">
+  <meta name="viewport" content="width=device-width, initail-scale=1.0">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <title>Reservations Page</title>
+</head>
+
+<body>
+
+    <div class=Nav>
+
+        <nav>
+            <a href="Index.html"><h2 class="Logo">FIRST CLASS <span>Rentals</span></h2></a>
+            <ul class="navlist">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="res.html">Book Reservations  </a></li>
+                <li><a href="Testimonials.html">Testimonials</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+        
+    <section class="Bsect">
+        <div class="Info2">
+            <div class="Text">
+               <form class="Reservation">
+                <br>
+                
+                    <label for="Name">Full Name</label>
+                    <input id="Name" type="text" placeholder="Name" class="textField" required>
+                    <label for="Email">Email</label>
+                    <input id="Email" type="text" placeholder="Email" class="textField" required>
+                    <label for="Name">Password</label>
+                    <input id="Name" type="password" placeholder="Password" class="textField" required>
+                    <br>
+                    <br>
+                    <label for="Sex"> Sex: </label>
+                    <input required type="radio" name="sex" value="Male"> Male </input>
+                    <input type="radio" name="sex" value="Female" > Female </input>
+                    <input type="radio" name="sex" value="Pnts"> I Prefer Not To Say </input>
+                    <br>
+                    <br>
+                    <label for="startDate">Start Date </label>
+                    <input id="startDate" type="date"  required >
+                    
+                    <label for="enddate">End Date</label>
+                    <input id="enddate" type="date"   required >
+                    <br>
+                    <br>
+
+                    <label for="cars">Select Model </label>
+                    <select id = "cars" >
+                    <option value=""selected disabled> [Select One] </option>
+                    <option value="Audi A4">Audi A4</option>
+                    <option value="Terios">Terios </option>
+                    <option value="Toyota Vitz ">Toyota Vitz </option>
+                </select>
+                    <br>
+                    <br>
+
+                    <label for="homes">Select Vacation Home </label>
+                    <select id = "homes" >]
+                        <option value=""selected disabled> [Select One] </option>
+                    <option value="Modern Home">Modern Home</option>
+                    <option value="Duplex">Duplex </option>
+                </select>
+                <br>
+                <br>
+                <label for = "PickLoc" >Pick Up Location</label>
+                <input id="PickLoc" type="text" placeholder="Type Pick Up Location" class="textField" required>
+                <br>
+                <br>
+                <label for="paymentamt">Enter Payment Amount</label>
+                <input id="paymentamt" type="number" placeholder="Amount" class="textField" required></input>
+                <br>
+                <br>
+                <br>
+                    <button class ="res_submit" type="submit"> Submit</button>
+               </form>
+    
+          </div>
+        </div>
+    </section>
+
+    </body>
+
